@@ -1,0 +1,196 @@
+body-top{
+    width:80%;
+    border:none;
+    margin:auto;
+    font-family:Times New Roman;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#content {
+    width: 80%;
+    border:none;
+    margin:auto;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-size: normal;
+    font-weight: normal;
+    text-align: left;
+}
+header, footer{
+    padding:1em;
+    color:white;
+    background-color: #006400;
+    clear:left;
+    text-align:center;
+    vertical-align: center;
+}
+nav {
+    height:40px;
+    border:solid #F08080;
+    padding: 0em;
+    text-align: center;
+
+    list-style-type: none;
+    background-color: #F08080;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    padding:1em;
+
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 1em;
+    color: #FFFFFF;
+    border: solid white 2px;
+}
+#main{
+    padding: 1em;
+
+    color: #006400;
+    font-weight: bold;
+    text-align: justify;
+}
+div#logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#tours {
+    text-align:left;
+}
+.tour{
+    width: 30%;
+    border: #66cdaa sold 2px;
+    text-align:center;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+}
+.tour img{
+    
+    height: 150px;
+    max-width;
+}
+
+div.tour a{
+    background-color: 366cdaa;
+    text-decoration: none;
+    padding: 3px;
+    color:#FFFFFF;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+#logo{
+    max-width: 180px;
+    max-height: 180px;
+}
+.col-9{
+    display:flex;
+}
+@media screen and (max-width: 768px){
+    #logo{
+        max-width: 100px;
+        max-height: 70px;
+    }
+    h1{
+        font-size: 14px;
+    }
+}
+#menu {
+    background-color: #F08080;
+}
+a{
+    color:white;
+    border:solid white 3px;
+    box-shadow: 20px 0 -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+.tour a{
+    background-color: #66cdaa;
+    color:white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 70px;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    background-color: #007169;
+}
+div#content {
+    width: 80%;
+    border:none;
+    margin:auto;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-size: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+div#logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+ }
+ th, td {
+    border: 2px solid black;
+    text-align: left;
+    
+    padding: 8px;
+} 
+table#form{
+    width:50%;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.eks {
+    font-style: italic;
+}
+
+#myWindow { 
+    display: none;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 300px; 
+    padding: 20px; 
+    background-color: #f1f1f1; 
+    border: 1px solid #ccc; 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    } 
+    
+    #myWindow h2 { 
+    margin-top: 0; 
+    } 
+    
+    #closeButton { 
+    margin-top: 10px; 
+    } 
+
+
